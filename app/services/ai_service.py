@@ -7,7 +7,7 @@ genai.configure(api_key=settings.GEMINI_API_KEY)
 
 class AIService:
     def __init__(self):
-        self.model = genai.GenerativeModel('gemini-pro')
+        self.model = genai.GenerativeModel('gemini-2.5-flash')
 
     async def analyze_resume(self, job_description: str, resume_text: str) -> AnalysisResult:
         prompt = f"""
