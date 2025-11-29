@@ -42,6 +42,13 @@ A production-ready FastAPI application that accepts a job description (JD) and a
 
 3. Access API docs at `http://localhost:8000/docs`.
 
+### Using the Frontend
+
+1. Ensure the backend is running (locally or via Docker).
+2. Open `frontend/index.html` in your web browser.
+3. Enter a Job Description and Resume text.
+4. Click "Analyze Resume".
+
 ## Git Workflow
 
 We use the Feature Branch Workflow:
