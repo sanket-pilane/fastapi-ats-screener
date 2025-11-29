@@ -113,6 +113,4 @@ We follow the **Feature Branch Workflow**:
 | `develop`   | 🚧 Integration branch for testing.              |
 | `feature/*` | ✨ Feature branches (e.g., `feature/add-auth`). |
 
-## 📄 License
-
-This project is licensed under the MIT License.
+Happy Coading❤️
